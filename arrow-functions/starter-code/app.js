@@ -188,9 +188,11 @@ joe.scopeArrow();
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-      // "this" when joe.scoped() is invoked is  
+      // "this" when joe.scoped() is invoked refers to the objects declared within the function.
 
 // 2. What is "this" when joe.scopeArrow() is invoked?
-      // "this" when joe.scopeArrow() is invoked is  
+      // "this" when joe.scopeArrow() is invoked refers to the value of the scope.
 // 3. Explain why "this" is different when an arrow function is used.
-    // The reason why
+    // The reason why 'this' is different in an arrow function versus not in one is because
+    // arrow functions don't have their own bindings with 'this' and when used in a constructor, 
+    // the arrow function targets different values in order to execute the code.
